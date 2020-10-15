@@ -481,20 +481,5 @@ predictions(w,"logistic_regression")
 predictions(w,"hinge_loss_adaptive_learningrate")
 
 # ###################
-# ## Optional for testing on toy data
-# ## Comment out when submitting project
-# ###################
-# print(w) 
-# wlen = math.sqrt(w[0]**2 + w[1]**2)
-# dist_to_origin = abs(w[2])/wlen
-# print("Dist to origin=",dist_to_origin)
-
-# wlen=0
-# for i in range(0, len(w), 1):
-# 	wlen += w[i]**2
-# wlen=math.sqrt(wlen)
-# print("wlen=",wlen)	
-
-# ###################
 # #### Classify unlabeled points
 # ##################
